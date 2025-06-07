@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:moviez/firebase_options.dart';
-import 'package:moviez/view/login_screen.dart';
+import 'package:moviez/view/login_screen/login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,10 +17,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
+      themeMode: ThemeMode.dark,
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(148, 96, 125, 139),
+          brightness: Brightness.dark,
+        ),
+        useMaterial3: true,
       ),
-      home:LoginScreen()
+      home: LoginScreen(),
     );
   }
 }
