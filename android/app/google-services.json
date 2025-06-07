@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "359591953922",
-    "project_id": "moviez-22d87",
-    "storage_bucket": "moviez-22d87.firebasestorage.app"
+    "project_number": "809556430669",
+    "project_id": "trakx-bc92a",
+    "storage_bucket": "trakx-bc92a.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:359591953922:android:012db14820f7c5f9fe891b",
+        "mobilesdk_app_id": "1:809556430669:android:b3f33b4c6bea593e467104",
         "android_client_info": {
           "package_name": "com.example.moviez"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDhRQ5IeSsTxHa1XEHSbaeESh69fwWGemE"
+          "current_key": "AIzaSyBjklCMu74n7eik0bzDW9YiO-aTLtfOL6c"
         }
       ],
       "services": {
